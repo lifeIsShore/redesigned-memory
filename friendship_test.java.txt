@@ -1,0 +1,60 @@
+package ahmet1bosİs;
+import java.util.Scanner;
+public class bosİs {
+
+	
+		    public static void main(String[] args) {
+		    	Scanner ahmet = new Scanner(System.in);
+		        System.out.println("Kendi canım üzerine yemin ediyorum doğruyu söyleyeceğim");
+		        boolean tf = ahmet.nextBoolean();
+		        if (tf == true) {
+		            String kendiYorumu;
+		            double totalRate = 0;
+		            System.out.println("if i have to rate the relation between ahmet and me in all aspect out of ten it would be: ");
+		            double r1 = ahmet.nextDouble();
+		            double s = totalRate + r1;
+		            System.out.println("tüm arkadaşlarım, kuzenlerim, kanbağımolmayankuzenlerim(;, duygusal olarak hoşlandığım erkolar, ve tanıdım tüm insanlar arasında ahmetin sırası baştan ...'(ı)ncı sırada olurdu");
+		            int sıram = ahmet.nextInt();
+		            s = +(11 - sıram);
+
+		            System.out.println("ahmet'e olan güvenim 10 üzerinden şudur:  ");
+		            double r2 = ahmet.nextDouble();
+		            s = +r2;
+
+		            System.out.println("ısız bir adaya düşsem yanıma ahmet'i alır mıydım? Evet dersen geriye iki dilek hakkın kalıyor iyi düşün!");
+		            Boolean evetHayır = ahmet.nextBoolean();
+		            if (evetHayır == true) {
+
+		                System.out.println("ya adamın niye rahatını bozuyon, napak aldın bi kere \nseç\n1-çünkü muhabbet ya vakit geçerdi\n2-iş yaptırırdım boşa mı 100kg bench basıp 19 barfiks çekiyor\n3-bu kadar basit değil. kendim tuşlayacağım");
+		                int e = ahmet.nextInt();
+		                if (e == 3) {
+		                    System.out.println("sebep? tuşlayın lütfen");
+		                    String b = ahmet.nextLine();
+		                    kendiYorumu = ahmet.nextLine();
+		                }
+		                s = +10;
+		            } else {
+		                System.out.println("Allah razı olsun ne biliyon belki de o gelmek istemez, zaten bu kadar maceraya kalbi dayanmaz");
+		            }
+		            System.out.println("ahmet'in espri anlayışını 10 üzeriden puanlasan şu olurdu: ");
+		            double r3 = ahmet.nextDouble();
+		            s = (11 - sıram)+r1+r2+r3+10;
+		            if (50 >= s && s > 40) {
+		                System.out.println("toplam puanın 50 üzerinden " + s + " yaa şapşik zeynep, tost sevdiği kadar ahmet'i de seviyor");
+		            } else if (40 >= s && s > 30) {
+		                System.out.println("toplam puanın 50 üzerinden " + s + " teşekkürler, 4 ayda gelebileceğim en yüksek seviyedeyim");
+		            } else {
+		                System.out.println("toplam puanın 50 üzerinden " + s + " ya demek öyle okey küstüm şaka yapıyorum bu satırın asla basılmayacağını bildiğim için buraya küfür bile yazarım (:<");
+		            }
+
+		        } else {
+		            System.out.println("ohooo daha doğru söylemeyeceksen ne diye uğraştırıyon brom ((:");
+		        }
+		    }
+		
+
+
+
+	}
+
+

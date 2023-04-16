@@ -1,0 +1,13 @@
+public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		/* order of the input numbers: increasing, decreasing, ... */
+
+		int n1 = sc.nextInt(), n2 = sc.nextInt(), n3 = sc.nextInt();
+
+		if ((n1 < n2) && (n2 < n3))
+			System.out.print("increasing");
+		else if ((n3 < n2) && (n2 < n1))
+			System.out.print("decreasing");
+		else
+			System.out.print("neither increasing or decreasing order");

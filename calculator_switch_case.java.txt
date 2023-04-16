@@ -1,0 +1,24 @@
+// Calculator using Switch-case mechanism
+		// int n1, n2;
+		char oprt;
+
+		n1 = sc.nextInt();
+		oprt = sc.next().charAt(0);
+		n2 = sc.nextInt();
+		double result = 0;
+
+		switch (oprt) {
+		case '+':
+			result = n1 + n2;
+			break;
+		case '*':
+			result = n1 * n2;
+			break;
+		case '-':
+			result = n1 - n2;
+			break;
+		default:
+			result = n1 / (double) n2;
+		}
+
+		System.out.println("The result is " + result);

@@ -1,0 +1,17 @@
+System.out.println("Please enter a number:");
+		int inputNumber = scan.nextInt();
+		
+		int remainder = inputNumber % 2; // 0 or 1 // mod operation
+		
+		if (remainder == 0) // !(remainder != 0)
+		{
+			System.out.println("The number is even!");
+			System.out.println("The given number is " + inputNumber);
+			//...
+			//...
+		}
+		else
+		{
+		//if (remainder == 1) // remainder != 0
+			System.out.println("The number is odd!");
+			System.out.println("The given number is " + inputNumber);

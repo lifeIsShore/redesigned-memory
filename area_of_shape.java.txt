@@ -1,0 +1,16 @@
+	char shapeChar = sc.next().charAt(0);
+		double area;
+
+		if (shapeChar == 's' || shapeChar == 'S') {
+			int edge = sc.nextInt();
+			area = edge * edge;
+
+		} else if (shapeChar == 'r' || shapeChar == 'R') {
+			int side = sc.nextInt();
+			int h = sc.nextInt();
+
+			area = side * h;
+		} else {
+			int r = sc.nextInt();
+			area = 3.14 * r * r;
+		}

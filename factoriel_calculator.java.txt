@@ -1,0 +1,20 @@
+package FirstApplicationPackage;
+
+import java.util.Scanner;
+
+public class faktorial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int faktor = 1;
+		Scanner ahmet = new Scanner(System.in);
+		int number = ahmet.nextInt();
+
+	
+		for (int i = 1; i <= number ; i++) {
+			faktor = faktor * i;
+		}
+		System.out.println(faktor);
+
+	}
+}

@@ -1,0 +1,19 @@
+// Holiday staying question
+
+		int numberOfKids, numberOfNights, finalCost;
+
+		numberOfKids = sc.nextInt();
+		numberOfNights = sc.nextInt();
+
+		int pricePerKid;
+		final int pricePerPerson = 100;
+
+		if (numberOfKids >= 1 && numberOfKids <= 3)
+			pricePerKid = 50;
+		else
+			pricePerKid = 30;
+
+		finalCost = (2 * pricePerPerson + numberOfKids * pricePerKid) * numberOfNights;
+		// finalCost += numberOfKids * pricePerKid * numberOfNights;
+
+		System.out.println("the total cost is " + finalCost + " TL");

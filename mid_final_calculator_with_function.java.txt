@@ -1,0 +1,39 @@
+package FirstApplicationPackage;
+
+import java.util.Scanner;
+
+public class senhatırlamazsınbenuntumam {
+
+	/*
+	 * static int factor(int fact) {
+	 * 
+	 * for (int i = 1; i <= a; i++) { double result = 1; result *= i;} return
+	 * result; }
+	 */
+
+	static char lettergrade(double midt, double fin) {
+		double avarage = (double) (midt + fin) / 2;
+
+		if (avarage <= 100 && avarage >= 70) {
+			return 'A';
+		} else if (avarage <= 69 && avarage >= 50) {
+			return 'B';
+		} else {
+			return 'C';
+		}
+
+	}
+
+	public static void main(String[] args) {
+		System.out.println("type your two grade (midterm and final):");
+		Scanner ahmet = new Scanner(System.in);
+		int midt = ahmet.nextInt();
+		int fin = ahmet.nextInt();
+	 System.out.println(lettergrade(midt,fin));
+
+		// int n = ahmet.nextInt();
+
+		// System.out.println(factor(3));
+	}
+
+}

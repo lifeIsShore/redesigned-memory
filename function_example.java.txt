@@ -1,0 +1,15 @@
+package FirstApplicationPackage;
+
+public class beynimizdendumançıkıyorya {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String yoklamadön= yoklama("ahmet");
+		System.out.println(yoklama(yoklamadön));
+	}
+
+	public static String yoklama(String a)
+{ 
+	return a;}
+}

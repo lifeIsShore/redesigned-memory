@@ -1,0 +1,15 @@
+// 4 [0-9] -> it is a numeric value [48-57]
+		// m [a-z A-Z] -> it is an alphabetic value [65-90, 97-122]
+		// % -> it is a non-alphanumeric value
+
+		char inputCharacter = sc.next().charAt(0);
+
+		int asciiValueOfInputChar = (int) inputCharacter;
+
+		if (asciiValueOfInputChar >= 48 && asciiValueOfInputChar < 58)
+			System.out.println("It is a numeric value");
+		else if ((asciiValueOfInputChar >= 65 && asciiValueOfInputChar <= 90)
+				|| (asciiValueOfInputChar >= 97 && asciiValueOfInputChar <= 122))
+			System.out.println("It is an alphabetic value");
+		else
+			System.out.println("It is a non-alphanumeric value");

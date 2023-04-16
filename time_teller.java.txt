@@ -1,0 +1,22 @@
+package For;
+
+import java.util.Scanner;
+
+public class for1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ Scanner input = new Scanner(System.in); 
+ System.out.println("tell me the time please");
+		int a =input.nextInt();
+ switch (a)
+ { case 8, 9, 10, 11: System.out.println("GMorning"); break;
+ case 12: System.out.println("it is noon"); break;
+ case 13, 14, 15, 16: System.out.println("GAfternoon"); break;
+  default: System.out.println("GNight");}
+ }
+ }
+	 
+	
+
+

@@ -1,0 +1,27 @@
+package FirstApplicationPackage;
+
+import java.util.Scanner;
+
+public class sınav {
+
+	public static int i;
+
+	public static void main(String[] args) {
+		Scanner ahmet = new Scanner(System.in);
+		System.out.println("dizinin eleman sayısıını söyleyin");
+		int diziUzunluğu = ahmet.nextInt();
+		ahmet.nextLine();
+		String[] isimler = new String[diziUzunluğu];
+		for (int i = 0; i < isimler.length; i++) 
+		{
+			System.out.println("dizinin " + (i) + ". index değerini girin");
+		
+		isimler[i] = ahmet.nextLine();
+		}
+		System.out.println("diziniz: ");
+
+		for (int i = 0; i < isimler.length; i++) {
+			System.out.println(isimler[i]);
+		}
+	}
+}

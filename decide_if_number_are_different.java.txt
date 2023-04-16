@@ -1,0 +1,13 @@
+// Number equality question.
+		double number1, number2, number3;
+
+		number1 = sc.nextDouble();
+		number2 = sc.nextDouble();
+		number3 = sc.nextDouble();
+
+		if ((number1 != number2) && (number2 != number3) && (number1 != number3))
+			System.out.println("All numbers are different");
+		else if ((number1 == number2) && (number2 == number3))
+			System.out.println("All numbers are equal");
+		else
+			System.out.println("Neither all are equal or different");

@@ -1,0 +1,80 @@
+int n1, n2, n3, min, mid, max;
+		
+		n1 = scan.nextInt();
+		n2 = scan.nextInt();
+		n3 = scan.nextInt();
+		
+		/*  
+		 * 
+		 * 
+		 * */
+		
+		if (n1 < n2)
+		{
+			if (n1 < n3)
+			{
+				min = n1;
+				
+				if (n2 < n3)
+				{
+					mid = n2;
+					max = n3;
+				}
+				else
+				{
+					mid = n3;
+					max = n2;
+				}
+			}
+			else // this is the case where n3 is greater than n1
+			{
+				min = n3;
+				
+				if (n2 < n1)
+				{
+					mid = n2;
+					max = n1;
+				}
+				else
+				{
+					mid = n1;
+					max = n2;
+				}
+				
+			}
+		}
+		else //this is the case where n2 is less than n1
+		{
+			if (n2 < n3)
+			{
+				min = n2;
+				
+				if (n1 < n3)
+				{
+					mid = n1;
+					max = n3;
+				}
+				else
+				{
+					mid = n3;
+					max = n1;
+				}
+			}
+			else
+			{
+				min = n3;
+				
+				if (n1 < n2)
+				{
+					mid = n1;
+					max = n2;
+				}
+				else
+				{
+					mid = n2;
+					max = n1;
+				}
+			}
+		}
+		
+		System.out.println(min + "\t" + mid + "\t" + max);
