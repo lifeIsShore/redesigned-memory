@@ -1,2 +1,2 @@
 # redesigned-memory
-myJavaProject
+myJavaProjects
